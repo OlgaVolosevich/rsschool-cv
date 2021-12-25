@@ -1,7 +1,5 @@
 # Olga Volosevich
 
---- 
-
 ### Junior Front-end Developer
 
 ---
@@ -84,26 +82,26 @@ function list(names) {
 
 ### Education:
 
-**09.2013 - 06.2018**
-**Belarusian State University**
-Faculty of Social and Cultural Communications
+**09.2013 - 06.2018** <br>
+**Belarusian State University** <br>
+Faculty of Social and Cultural Communications <br>
 
-**07.2019 - 02.2020**
-**IT Step**
-Web-developement, Front-end
+**07.2019 - 02.2020** <br>
+**IT Step** <br>
+Web-developement, Front-end <br>
 
-**07.2020 - 09.2020**
-**Andersen** 
-JS
+**07.2020 - 09.2020** <br>
+**Andersen** <br>
+JS <br>
 
-**12.2021-present**
-**EPAM**
-JS/Front-end Pre-school
+**12.2021-present** <br>
+**EPAM** <br>
+JS/Front-end Pre-school <br>
 
 ---
 
 ### Languages:
 
-English - C1 (according to EPAM Training Center)
-German - A2
-Russian - native
+English - C1 (according to EPAM Training Center) <br>
+German - A2 <br>
+Russian - native <br>
