@@ -1,21 +1,21 @@
-Olga Volosevich
+# Olga Volosevich
 
 --- 
 
-Junior Front-end Developer
+### Junior Front-end Developer
 
 ---
 
-Contact information:
+### Contact information:
 
-Phone: +375291336354
-E-mail: o.volosevich96@gmail.com
-Telegram: @unaqwerty
-Discord: OlgaVolosevich(Olga_V#7301)
+**Phone**: +375291336354 <br>
+**E-mail**: o.volosevich96@gmail.com <br>
+**Telegram**: @unaqwerty <br>
+**Discord**: OlgaVolosevich(Olga_V#7301) 
 
 ---
 
-Personal Information: 
+### Personal Information: 
 
 I am a team player. In the process of developing the final group project for Andersen's courses I distributed tasks among the team, did code review, consulted and helped other team members, presented our project to the supervisors. 
 
@@ -23,7 +23,7 @@ I am not afraid of challenging tasks and can work on my own. In the period from 
 
 ---
 
-Skills:
+### Skills:
 
 - JavaScript (ES6+)
 - OOP
@@ -37,12 +37,14 @@ Skills:
 
 ---
 
-Code example:
+### Code example:
 
-Given: an array containing hashes of names
-Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.
+**Format a string of names like 'Bart, Lisa & Maggie'**
 
+Given: an array containing hashes of names <br>
+Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.<br>
 
+```javascript
 function list(names) {
     let result = "";
     for(i=0; i < names.length; i++) {
@@ -57,21 +59,22 @@ function list(names) {
     }
     return result;
 }
-
+```
 ---
 
-My projects:
+### My projects:
 
-Online Shop (Andersen JS course final group project): https://olgavolosevich.github.io/Andersen-course-final-team-project/.
-During this project I used:
+[Online Shop (Andersen JS course final group project)](https://olgavolosevich.github.io/Andersen-course-final-team-project/) 
+
+**While developing I used**:
 - JavaScript
 - AJAX
 - CSS3
 - HTML
 
-Munchkin Game Helper (my last completed project): https://olgavolosevich.github.io/Munchkin-Game-Helper-React-App/
+[Munchkin Game Helper (my last completed project)](https://olgavolosevich.github.io/Munchkin-Game-Helper-React-App/) 
 
-During this project I used:
+**While developing I used**:
 - React 
 - JavaScript
 - SASS
@@ -79,27 +82,27 @@ During this project I used:
 
 ---
 
-Education:
+### Education:
 
-09.2013 - 06.2018
-Belarusian State University
+**09.2013 - 06.2018**
+**Belarusian State University**
 Faculty of Social and Cultural Communications
 
-07.2019 - 02.2020
-IT Step
+**07.2019 - 02.2020**
+**IT Step**
 Web-developement, Front-end
 
-07.2020 - 09.2020
-Andersen 
+**07.2020 - 09.2020**
+**Andersen** 
 JS
 
-12.2021-present
-EPAM
+**12.2021-present**
+**EPAM**
 JS/Front-end Pre-school
 
 ---
 
-Languages:
+### Languages:
 
 English - C1 (according to EPAM Training Center)
 German - A2
