@@ -93,6 +93,7 @@ Web-developement, Front-end <br>
 **07.2020 - 09.2020** <br>
 **Andersen** <br>
 JS <br>
+![andersen-sertificate](/images/andersen-certificate.png) <br>
 
 **12.2021-present** <br>
 **EPAM** <br>
@@ -103,5 +104,6 @@ JS/Front-end Pre-school <br>
 ### Languages:
 
 English - C1 (according to EPAM Training Center) <br>
+![english-certificate](/images/english-level.jpg) <br>
 German - A2 <br>
 Russian - native <br>
