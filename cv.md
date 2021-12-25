@@ -1,0 +1,106 @@
+Olga Volosevich
+
+--- 
+
+Junior Front-end Developer
+
+---
+
+Contact information:
+
+Phone: +375291336354
+E-mail: o.volosevich96@gmail.com
+Telegram: @unaqwerty
+Discord: OlgaVolosevich(Olga_V#7301)
+
+---
+
+Personal Information: 
+
+I am a team player. In the process of developing the final group project for Andersen's courses I distributed tasks among the team, did code review, consulted and helped other team members, presented our project to the supervisors. 
+
+I am not afraid of challenging tasks and can work on my own. In the period from 2013 to 2015, I took part in such sporting events as the World Championship in kayaking and canoeing, the World Championship in biathlon and many others. During these events I worked as a volunteer interpreter, performed bilingual translation, worked as a team host, a member of the accreditation center and a coordinator of participating teams at the airport and hotels.
+
+---
+
+Skills:
+
+- JavaScript (ES6+)
+- OOP
+- CSS3
+- HTML5
+- React
+- Sass / Less
+- Git
+- Photoshop
+- Figma
+
+---
+
+Code example:
+
+Given: an array containing hashes of names
+Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.
+
+
+function list(names) {
+    let result = "";
+    for(i=0; i < names.length; i++) {
+        if (i < names.length-2) {
+            result += names[i].name +", ";
+        } 
+        else if (i === names.length-2) {
+        result += names[i].name + " & ";
+       } else {
+        result += names[i].name;
+       }
+    }
+    return result;
+}
+
+---
+
+My projects:
+
+Online Shop (Andersen JS course final group project): https://olgavolosevich.github.io/Andersen-course-final-team-project/.
+During this project I used:
+- JavaScript
+- AJAX
+- CSS3
+- HTML
+
+Munchkin Game Helper (my last completed project): https://olgavolosevich.github.io/Munchkin-Game-Helper-React-App/
+
+During this project I used:
+- React 
+- JavaScript
+- SASS
+- HTML
+
+---
+
+Education:
+
+09.2013 - 06.2018
+Belarusian State University
+Faculty of Social and Cultural Communications
+
+07.2019 - 02.2020
+IT Step
+Web-developement, Front-end
+
+07.2020 - 09.2020
+Andersen 
+JS
+
+12.2021-present
+EPAM
+JS/Front-end Pre-school
+
+---
+
+Languages:
+
+English - C1 (according to EPAM Training Center)
+German - A2
+Russian - native
