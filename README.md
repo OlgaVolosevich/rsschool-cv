@@ -1,1 +1,1 @@
-# Link: https://olgavolosevich.github.io/rsschool-cv/cv
+# Link: https://olgavolosevich.github.io/rsschool-cv/
