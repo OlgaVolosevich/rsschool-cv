@@ -6,35 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./fonts/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#languages">Languages</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#personal-info">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#code">Code</a></li>
+        <nav class="navigation">
+            <ul class="navigation__container">
+                <li class="navigation__item"><a href="#contacts">Contacts</a></li>
+                <li class="navigation__item"><a href="#skills">Skills</a></li>
+                <li class="navigation__item"><a href="#languages">Languages</a></li>
+                <li class="navigation__item"><a href="#education">Education</a></li>
+                <li class="navigation__item"><a href="#personal-info">About me</a></li>
+                <li class="navigation__item"><a href="#projects">Projects</a></li>
+                <li class="navigation__item"><a href="#code">Code</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="main-info">
-            <h1>Olga Volosevich</h1>
-            <img src="./images/personal-photo.jpg" alt="photo of Olga Volosevich">
-            <h2>Junior Front-end Developer</h2>
+            <img class="main-info__photo" src="./images/personal-photo.jpg" alt="photo of Olga Volosevich">
+            <div class="main-info__greeting">
+                <h1 class="main-info__name">Hi!<br> My name is<br> Olga Volosevich</h1>
+                <h2 class="main-info__position">Junior Front-end Developer</h2>
+                <a class="main-info__contact-btn" href="mailto:o.volosevich96@gmail.com">Contact Me</a>
+            </div>
         </section>
         <section id="contacts">
             <h2>Contact information</h2>
-            <p> <b>Phone:</b> +375291336354</p>
-            <p><b>E-mail:</b> o.volosevich96@gmail.com</p>
-            <p><b>Telegram:</b> @unaqwerty</p>
-            <p><b>Discord:</b> OlgaVolosevich(Olga_V#7301)</p>
+            <ul class="contacts__container">
+                <li title="phone" class="contacts__item"><span class="icon-phone icon"></span> +375291336354</li>
+                <li title="email" class="contacts__item"><span class="icon-envelope icon"></span>
+                    o.volosevich96@gmail.com</li>
+                <li title="telegram" class="contacts__item"><span class="icon-telegram icon"></span> @unaqwerty</li>
+            </ul>
         </section>
         <section id="skills">
             <h2>Skills</h2>

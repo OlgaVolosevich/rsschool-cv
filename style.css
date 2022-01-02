@@ -1,3 +1,115 @@
+:root {
+    --main-minty-color: rgb(120, 194, 173);
+    ---main-font-color: #5a5a5a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(---main-font-color);
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--main-minty-color);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
 h1 {
-    color: red;
+    font-size:50px;
+    text-align: center;
+}
+
+h2 {
+    font-size:40px; 
+    text-align: center;
+}
+.navigation {
+    flex: 1;
+}
+.navigation__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation__item {
+    padding: 0 20px;
+}
+
+.navigation__item > a{
+    color: #fff;
+}
+main {
+    margin-top: 20px;
+}
+#main-info {
+    height: calc(90vh - 20px);
+    display: flex;
+}
+
+.main-info__photo {
+    display: block;
+    margin: auto;
+    width: 290px;
+    height: 480px;
+    border: 5px solid var(--main-minty-color);
+}
+
+.main-info__greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.main-info__contact-btn {
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: var(--main-minty-color);
+    border: none;
+}
+
+.contacts__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.contacts__item {
+    padding: 20px;
+    padding-left: 50px;
+    border: 2px solid var(--main-minty-color);
+    position: relative;
+}
+.contacts__item > .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: large;
+}
+.contacts__item:hover {
+    background-color: var(--main-minty-color);
+    color: #fff;
+}
+
+.contacts__item:hover > .icon {
+    color: #fff;
 }
