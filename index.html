@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,149 @@
     <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
+
 <body>
-    <h1>Olga Volosevich</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#personal-info">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#code">Code</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-info">
+            <h1>Olga Volosevich</h1>
+            <img src="./images/personal-photo.jpg" alt="photo of Olga Volosevich">
+            <h2>Junior Front-end Developer</h2>
+        </section>
+        <section id="contacts">
+            <h2>Contact information</h2>
+            <p> <b>Phone:</b> +375291336354</p>
+            <p><b>E-mail:</b> o.volosevich96@gmail.com</p>
+            <p><b>Telegram:</b> @unaqwerty</p>
+            <p><b>Discord:</b> OlgaVolosevich(Olga_V#7301)</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>OOP</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+                <li>React</li>
+                <li>Sass / Less</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <div>
+                <p><b>English</b> - C1</p>
+            </div>
+            <div>
+                <p><b>German</b> - A2</p>
+            </div>
+            <div>
+                <p><b>Russian</b> - Native</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2> Education</h2>
+            <div>
+                <p>09.2013 - 06.2018</p>
+                <p>Belarusian State University</p>
+                <p>Faculty of Social and Cultural Communications</p>
+            </div>
+            <div>
+                <p>07.2019 - 02.2020</p>
+                <p>IT Step</p>
+                <p>Web-developement, Front-end</p>
+            </div>
+            <div>
+                <p>07.2020 - 09.2020</p>
+                <p>Andersen</p>
+                <p>JS</p>
+            </div>
+            <div>
+                <p>12.2021 - present</p>
+                <p>RS-SCHOOL</p>
+                <p>Front-end Pre-school</p>
+            </div>
+        </section>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p>I am a team player. In the process of developing the final group project for Andersen’s courses I
+                distributed tasks among the team, did code review, consulted and helped other team members, presented
+                our project to the supervisors.</p>
+            <p>I am not afraid of challenging tasks and can work on my own. In the period from 2013 to 2015, I took part
+                in such sporting events as the World Championship in kayaking and canoeing, the World Championship in
+                biathlon and many others. During these events I worked as a volunteer interpreter, performed bilingual
+                translation, worked as a team host, a member of the accreditation center and a coordinator of
+                participating teams at the airport and hotels.</p>
+        </section>
+        <section id="projects">
+            <h2>My projects</h2>
+            <div>
+                <p><a href="https://olgavolosevich.github.io/Andersen-course-final-team-project/">Online Shop (Andersen
+                        JS course final group project)</a></p>
+                <h3>While developing I used:</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>OOP</li>
+                    <li>AJAX</li>
+                    <li>CSS3</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+            <div>
+                <p><a href="https://olgavolosevich.github.io/Munchkin-Game-Helper-React-App/">Munchkin Game Helper (my
+                        last completed project)</a></p>
+                <h3>While developing I used:</h3>
+                <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>SASS</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <h2>Code example</h2>
+            <h3>Format a string of names like `Bart, Lisa & Maggie`</h3>
+            <p>Given: an array containing hashes of names</p>
+            <p>Return: a string formatted as a list of names separated by commas except for the last two names, which
+                should be separated by an ampersand.</p>
+            <pre>
+                function list(names) {
+                    let result = "";
+                    for(i=0; i &#60; names.length; i++) {
+                        if (i &#60; names.length-2) {
+                            result += names[i].name +", ";
+                        } 
+                        else if (i === names.length-2) {
+                        result += names[i].name + " & ";
+                       } else {
+                        result += names[i].name;
+                       }
+                    }
+                    return result;
+                }                
+            </pre>
+        </section>
+    </main>
+    <footer>
+        <a class="github-link" href="https://github.com/OlgaVolosevich"></a>
+        <a class="rs-school" href="https://rs.school/js-stage0/"></a>
+        <time datetime="2022-01-02">January 2nd, 2022</time>
+    </footer>
 </body>
+
 </html>
