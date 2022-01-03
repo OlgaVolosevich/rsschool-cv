@@ -215,8 +215,17 @@ main {
     justify-content: space-between;
 }
 .skills__item {
-   font-weight: bold;
+    display: block;
+    padding: 20px;
+    border: 2px solid var(--main-font-color);
+    font-weight: bold;
+    transition: all 0.3s;
 }
+
+.skills__item:hover {
+    background-color: var(--main-font-color);
+    color: var(--main-dark-color);
+} 
 #languages, #education, #projects {
     display: flex;
     flex-wrap: wrap;
@@ -230,7 +239,17 @@ main {
     padding: 20px;
     font-weight: bold;
     border: 2px solid var(--main-font-color);
+    transition: all 0.3s;
 }
+
+.languages__item:hover {
+    background-color: var(--main-font-color);  
+}  
+
+.languages__item:hover > p {
+    color: var(--main-dark-color);
+}  
+
 #education {
     align-items: stretch;
 }
@@ -243,7 +262,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: all 0.3s;
   }
+
+  .education__item:hover {
+    background-color: var(--main-dark-color);
+  }
+  .education__item:hover > p {
+    color: var(--main-font-color);
+}
 .education__item > p, .projects__link > a, .projects__technologies > li, .projects__technologies__header {
     text-align: center;
     color: var(--main-dark-color);
@@ -266,6 +293,16 @@ main {
 
 .projects__technologies__header {
     font-weight: lighter;
+}
+
+.projects__item:hover {
+    background-color: var(--main-dark-color);
+}
+
+.projects__item:hover > .projects__link > a, 
+.projects__item:hover > .projects__technologies__header, 
+.projects__item:hover > .projects__technologies  >  .projects__technologies__item{
+    color: var(--main-font-color);
 }
 .code__task-name {
     text-align: center;
