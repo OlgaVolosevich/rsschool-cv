@@ -1,13 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./fonts/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
     <title>CV</title>
 </head>
+
 <body>
-    <h1>Olga Volosevich</h1>
+    <header>
+        <nav class="navigation">
+            <ul class="navigation__container">
+                <li class="navigation__item"><a href="#contacts">Contacts</a></li>
+                <li class="navigation__item"><a href="#skills">Skills</a></li>
+                <li class="navigation__item"><a href="#languages">Languages</a></li>
+                <li class="navigation__item"><a href="#education">Education</a></li>
+                <li class="navigation__item"><a href="#personal-info">About me</a></li>
+                <li class="navigation__item"><a href="#projects">Projects</a></li>
+                <li class="navigation__item"><a href="#code">Code</a></li>
+            </ul>
+        </nav>
+        <a class="navigation__btn-up" href="#main-info">Up</a>
+    </header>
+    <main>
+        <section id="main-info">
+            <img class="main-info__photo" src="./images/personal-photo.jpg" alt="photo of Olga Volosevich">
+            <div class="main-info__greeting">
+                <h1 class="main-info__name">Hi!<br> My name is<br> Olga Volosevich</h1>
+                <h2 class="main-info__position">Junior Front-end Developer</h2>
+                <a class="main-info__contact-btn" href="mailto:o.volosevich96@gmail.com">Contact Me</a>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>Contact information</h2>
+            <ul class="contacts__container">
+                <li title="phone" class="contacts__item"><span class="icon-phone icon"></span> +375291336354</li>
+                <li title="email" class="contacts__item"><span class="icon-envelope icon"></span>
+                    o.volosevich96@gmail.com</li>
+                <li title="telegram" class="contacts__item"><span class="icon-telegram icon"></span> @unaqwerty</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills__container">
+                <li class="skills__item">JavaScript (ES6+)</li>
+                <li class="skills__item">OOP</li>
+                <li class="skills__item">CSS3</li>
+                <li class="skills__item">HTML5</li>
+                <li class="skills__item">React</li>
+                <li class="skills__item">Sass / Less</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">Photoshop</li>
+                <li class="skills__item">Figma</li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <div class="languages__item">
+                <p>English - C1</p>
+            </div>
+            <div class="languages__item">
+                <p>German - A2</p>
+            </div>
+            <div class="languages__item">
+                <p>Russian - Native</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2> Education</h2>
+            <div class="education__item">
+                <p class="education__period">09.2013 - 06.2018</p>
+                <p class="education__course">Faculty of Social and Cultural Communications</p>
+                <p class="education__establishment">Belarusian State University</p>
+            </div>
+            <div class="education__item">
+                <p class="education__period">07.2019 - 02.2020</p>
+                <p class="education__course">Web-developement, Front-end</p>
+                <p class="education__establishment">IT Step</p>
+            </div>
+            <div class="education__item">
+                <p class="education__period">07.2020 - 09.2020</p>
+                <p class="education__course">JS</p>
+                <p class="education__establishment">Andersen</p>
+            </div>
+            <div class="education__item">
+                <p class="education__period">12.2021 - present</p>
+                <p class="education__course">Front-end Pre-school</p>
+                <p class="education__establishment">RS-SCHOOL</p>
+            </div>
+        </section>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p class="personal-info__item">I am a team player. In the process of developing the final group project for
+                Andersen’s courses I
+                distributed tasks among the team, did code review, consulted and helped other team members, presented
+                our project to the supervisors.</p>
+            <p class="personal-info__item">I am not afraid of challenging tasks and can work on my own. In the period
+                from 2013 to 2015, I took part
+                in such sporting events as the World Championship in kayaking and canoeing, the World Championship in
+                biathlon and many others. During these events I worked as a volunteer interpreter, performed bilingual
+                translation, worked as a team host, a member of the accreditation center and a coordinator of
+                participating teams at the airport and hotels.</p>
+        </section>
+        <section id="projects">
+            <h2>My projects</h2>
+            <div class="projects__item">
+                <p class="projects__link"><a href="https://olgavolosevich.github.io/Andersen-course-final-team-project/"
+                        target="_blank">Online Shop<br> (Andersen
+                        JS course final group project)</a></p>
+                <h3 class="projects__technologies__header">While developing I used:</h3>
+                <ul class="projects__technologies">
+                    <li class="projects__technologies__item">JavaScript</li>
+                    <li class="projects__technologies__item">OOP</li>
+                    <li class="projects__technologies__item">AJAX</li>
+                    <li class="projects__technologies__item">CSS3</li>
+                    <li class="projects__technologies__item">HTML</li>
+                </ul>
+            </div>
+            <div class="projects__item">
+                <p class="projects__link"><a href="https://olgavolosevich.github.io/Munchkin-Game-Helper-React-App/"
+                        target="_blank">Munchkin Game Helper<br> (my
+                        last completed project)</a></p>
+                <h3 class="projects__technologies__header">While developing I used:</h3>
+                <ul class="projects__technologies">
+                    <li class="projects__technologies__item">React</li>
+                    <li class="projects__technologies__item">JavaScript</li>
+                    <li class="projects__technologies__item">SASS</li>
+                    <li class="projects__technologies__item">HTML</li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <h2>Code example</h2>
+            <h3 class="code__task-name">Format a string of names like `Bart, Lisa & Maggie`</h3>
+            <p class="code__task-description">Given: an array containing hashes of names</p>
+            <p class="code__task-description">Return: a string formatted as a list of names separated by commas except
+                for the last two names, which
+                should be separated by an ampersand.</p>
+            <pre class="code__example">
+                function list(names) {
+                    let result = "";
+                    for(i=0; i &#60; names.length; i++) {
+                        if (i &#60; names.length-2) {
+                            result += names[i].name +", ";
+                        } 
+                        else if (i === names.length-2) {
+                        result += names[i].name + " & ";
+                       } else {
+                        result += names[i].name;
+                       }
+                    }
+                    return result;
+                }                
+            </pre>
+        </section>
+    </main>
+    <footer>
+        <a class="footer__github-link icon-github" href="https://github.com/OlgaVolosevich"></a>
+        <time class="footer__date" datetime="2022-01-02">January 2nd, 2022</time>
+        <a class="footer__rs-school-link" href="https://rs.school/js-stage0/"></a>
+    </footer>
 </body>
+
 </html>
